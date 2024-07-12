@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\shaders">
+      <UniqueIdentifier>{a9a1bee2-c98d-44b0-9229-4dd54a558427}</UniqueIdentifier>
+      <Extensions>glsl</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\images">
+      <UniqueIdentifier>{492bcb4c-2256-44a9-9f52-960c061aa056}</UniqueIdentifier>
+      <Extensions>png</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\tilemaps">
+      <UniqueIdentifier>{21ace26e-85ad-484f-80d0-0e6fe3cdb26f}</UniqueIdentifier>
+      <Extensions>tmap</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="maths_funcs.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterController.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="InputController.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DiamondView.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="ltMath.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="maths_funcs.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="TilemapView.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterController.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="InputController.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\terrain.png">
+      <Filter>Arquivos de Recurso\images</Filter>
+    </Image>
+    <Image Include="images\sully.png">
+      <Filter>Arquivos de Recurso\images</Filter>
+    </Image>
+    <Image Include="images\shout_tank.png">
+      <Filter>Arquivos de Recurso\images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tilemaps\terrain.tmap">
+      <Filter>Arquivos de Recurso\tilemaps</Filter>
+    </None>
+    <None Include="tilemaps\watter.tmap">
+      <Filter>Arquivos de Recurso\tilemaps</Filter>
+    </None>
+    <None Include="shaders\fragment_shader.glsl">
+      <Filter>Arquivos de Recurso\shaders</Filter>
+    </None>
+    <None Include="shaders\vertex_shader.glsl">
+      <Filter>Arquivos de Recurso\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
